@@ -365,8 +365,6 @@ $ flask shell
 >>> project1 = Project.query.filter_by(id = 1).first()
 >>> project1.assignments
 [<Assignment 1, Project manager, 2023-05-28 00:00:00, 2023-10-30 00:00:00, Uri Lee, XYZ Project Flask server>, <Assignment 2, Flask programmer, 2023-06-10 00:00:00, 2023-10-01 00:00:0
-```
-
 ## Association Proxy
 
 What about getting a list of projects for a given employee, or a list of
